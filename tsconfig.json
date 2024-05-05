@@ -1,0 +1,9 @@
+{
+  "include": ["**/**.ts"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "lib": ["es2020", "esnext"],
+    "module": "commonjs",
+    "target": "es2020"
+  },
+}
